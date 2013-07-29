@@ -1,7 +1,8 @@
 #member-wrapper .people {
   padding-top: 2em;
   text-align: center;
-  background-image:url(images/white_bg.jpg);}
+  background-color: #FFFFFF;
+  }
 #member-wrapper .people > img {
   margin-right: 1em;
   border:groove;
@@ -16,3 +17,31 @@
 #member-wrapper .people > hr {
   width: 80%;
   color: #0C3; }
+  
+#group-photo {
+	position: relative;
+	margin-left: -25px;				
+}
+#member-wrapper {
+	position: relative;
+	margin: 25px 40px;
+	text-align: center;
+}
+#member-wrapper ul {
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+#member-wrapper > ul > li {
+	width: 200px;
+	margin: 15px 5px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+}
+#member-wrapper > ul img { border: 3px solid #fda92d }
+#member-wrapper > ul > li > ul > li:first-child { font-size: 1.25em; font-weight: 900; }
+#member-wrapper > ul > li li { font-family: Georgia, "Times New Roman", Times, serif; font-size: 1em; }
+
+label { display: inline-block; width: 5em; }

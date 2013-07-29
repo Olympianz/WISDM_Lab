@@ -5,40 +5,8 @@
         
   		<h2 class="content_title">People</h2>
         
-		<style>
-			@import url("biography.css");
-			#group-photo {
-				position: relative;
-				margin-left: -25px;				
-			}
-			#member-wrapper {
-				position: relative;
-				margin: 25px 40px;
-				text-align: center;
-			}
-			#member-wrapper ul {
-				list-style: none;
-				text-align: center;
-				margin: 0;
-				padding: 0;
-			}
-			#member-wrapper > ul > li {
-				width: 200px;
-				margin: 15px 5px;
-				text-align: center;
-				display: inline-block;
-				vertical-align: top;
-			}
-			#member-wrapper > ul img { border: 3px solid #fda92d }
-			#member-wrapper > ul > li > ul > li:first-child { font-size: 1.25em; font-weight: 900; }
-			#member-wrapper > ul > li li { font-family: Georgia, "Times New Roman", Times, serif; font-size: 1em; }
-			
-			label { display: inline-block; width: 5em; }
-			
-			
-
-		</style>
-        
+        <link href="biography.css" rel="stylesheet" type="text/css" />
+		
         <div id="group-photo"><img src="photos/wisdm-group.png" /></div>
         	
 		<div id="member-wrapper" align="center">
@@ -52,7 +20,7 @@
                     </ul>
                 </li>
 			</ul>
-            <div id="gary" class="people">
+            <div id="gary" class="people" style="display:none;">
                 <img src="photos/gary.png"/>
                 <p class="contact">
                     <b> Dr. Gary Weiss </b> <br />
@@ -190,12 +158,30 @@
                     Phone: 718-817-0785 <br />
                 </p>
             </div>
-            
+<!--         
             <div id="arnold" class="people" style="display:none">
             	<img src="photos/arnold.png"/>
                 <p class="contact">
                     <b> Arnold Mendez </b> <br />
                     Research Assistant <br />
+                    Department of Computer & Information Sciences<br />
+                    
+                </p>
+                <hr />
+                <p class="biography">
+                    Biography ...<br />
+                    308A John Mulcahy Hall<br />
+                    441 East Fordham Road, Bronx NY 10458<br />
+                    Email: gweiss(at)cis.fordham.edu<br />
+                    Phone: 718-817-0785 <br />
+                </p>
+            </div>
+-->  
+            <div id="tarek" class="people" style="display:none">
+            	<img src="photos/none.png"/>
+                <p class="contact">
+                    <b> Tarek Chaya </b> <br />
+                     Research Assistant<br />
                     Department of Computer & Information Sciences<br />
                     
                 </p>
@@ -226,12 +212,30 @@
                     Phone: 718-817-0785 <br />
                 </p>
             </div>
-            
+<!--        
             <div id="greg" class="people" style="display:none">
             	<img src="photos/greg.png"/>
                 <p class="contact">
                     <b> Gregory Rivas </b> <br />
                     Research Assistant <br />
+                    Department of Computer & Information Sciences<br />
+                    
+                </p>
+                <hr />
+                <p class="biography">
+                    Biography ...<br />
+                    308A John Mulcahy Hall<br />
+                    441 East Fordham Road, Bronx NY 10458<br />
+                    Email: gweiss(at)cis.fordham.edu<br />
+                    Phone: 718-817-0785 <br />
+                </p>
+            </div>
+-->
+            <div id="chong" class="people" style="display:none">
+            	<img src="photos/none.png"/>
+                <p class="contact">
+                    <b> Chong Yue </b> <br />
+                    Web Developer <br />
                     Department of Computer & Information Sciences<br />
                     
                 </p>
@@ -504,24 +508,36 @@
                     </a>
 				<ul><li>Paul McHugh</li>
                 <li>Web & Java Development</li></ul></li>
-                
+<!--
 				<li><a rel="shadowbox; height=500; width=500" href="#arnold">
                 	<img src="photos/arnold.png" />
                 	</a>
 				<ul><li>Arnold Mendez</li>
                 <li>Research Assistant</li></ul></li>
+-->
+                <li><a rel="shadowbox; height=500; width=500" href="#tarek">
+                	<img src="photos/none.png" />
+                	</a>
+				<ul><li>Tarek Chaya</li>
+                <li>Reseach Assistant</li></ul></li>
                 
 				<li><a rel="shadowbox; height=500; width=500" href="#tony">
                 	<img src="photos/tony.png" />
                     </a>
 				<ul><li>Tony Pulickal</li>
                 <li>Web Development Lead, UI/UX, Project Management</li></ul></li>
-                
+<!--  
 				<li><a rel="shadowbox; height=500; width=500" href="#greg">
                 	<img src="photos/greg.png" />
                     </a>
 				<ul><li>Gregory Rivas</li>
                 <li>Research Assistant</li></ul></li>
+-->
+                <li><a rel="shadowbox; height=500; width=500" href="#chong">
+                	<img src="photos/none.png" />
+                    </a>
+				<ul><li>Chong Yue</li>
+                <li>Web developer</li></ul></li>
                 
 				<li><a rel="shadowbox; height=500; width=500" href="#isaac">
                 	<img src="photos/isaac.png" />
@@ -535,12 +551,13 @@
 				<ul><li>Jessica Timko</li>
                 <li>Data Mining, Server Architecture, Database Management</li></ul></li>
                 
+<!--
 				<li><a rel="shadowbox; height=500; width=500" href="#priscilla">
                 	<img src="photos/priscilla.png" />
                     </a>
 				<ul><li>Priscilla Twum</li>
                 <li>Java Development</li></ul></li>
-                
+-->
                 <!--<li><img src="photos/bethany.png" />
 				<ul><li>Bethany Wolff</li>
                 <li>Research Assistant</li></ul></li>-->
