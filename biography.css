@@ -1,0 +1,18 @@
+#member-wrapper .people {
+  padding-top: 2em;
+  text-align: center;
+  background-image:url(images/white_bg.jpg);}
+#member-wrapper .people > img {
+  margin-right: 1em;
+  border:groove;
+  border-width: 1.5px;
+  border-color: #0CF;
+  vertical-align: middle; }
+#member-wrapper .people > .contact {
+  text-align: left;
+  display: inline-block; }
+#member-wrapper .people > .biography {
+  text-align: center; }
+#member-wrapper .people > hr {
+  width: 80%;
+  color: #0C3; }
